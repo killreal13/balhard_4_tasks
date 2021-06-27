@@ -11,6 +11,7 @@
 (Нужно вернуть глубокую копию данных)
 """
 import copy
+
 user_data = {
     "name": None,
     "surname": None

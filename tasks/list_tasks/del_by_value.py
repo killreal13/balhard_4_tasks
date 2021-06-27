@@ -8,7 +8,6 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 
 def del_by_value(collection: list, value: str) -> list:
-    #del_list = input("Del")
     collection.remove(value)
     return collection
 

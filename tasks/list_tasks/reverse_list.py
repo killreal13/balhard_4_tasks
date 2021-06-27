@@ -7,8 +7,7 @@ from copy import deepcopy
 
 
 def reverse_list(collection: list) -> list:
-    collection_copy = deepcopy(collection)
-    # TODO вставить код сюда
+    collection_copy = deepcopy(collection[::-1])
     return collection_copy
 
 

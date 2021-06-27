@@ -11,6 +11,7 @@
 (Нужно вернуть поверхностную копию данных)
 """
 from copy import copy
+
 department = {
     "name": "IT",
     "head": "Marina"

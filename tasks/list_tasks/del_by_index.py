@@ -8,8 +8,6 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 
 def del_by_num(collection: list, num: int) -> list:
-    #del_list = input("Del")
-    #a = int(del_list)
     del collection[num - 1]
     return collection
 

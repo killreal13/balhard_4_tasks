@@ -14,8 +14,8 @@ workers = [
 
 
 def get_first_last(collection: list) -> tuple:
-    first = [0]
-    last = [2]
+    first = collection[0]
+    last = collection[2]
     return first, last
 
 

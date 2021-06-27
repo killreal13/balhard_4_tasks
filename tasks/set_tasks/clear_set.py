@@ -6,7 +6,7 @@
 
 
 def clear_set(collection: set) -> set:
-    # TODO вставить код сюда
+    set.clear()
     return collection
 
 

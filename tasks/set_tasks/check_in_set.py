@@ -8,9 +8,8 @@ from typing import Any
 
 
 def check_in(collection: set, element: Any) -> bool:
-    element in collection
-    result = None
-    return result
+    if element in collection:
+        return True
 
 
 if __name__ == '__main__':

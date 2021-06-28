@@ -7,8 +7,9 @@
 
 
 def common_elements(list_1: list, list_2) -> set:
-    list_1.extend(list_2)
-    return set(list_1)
+    list_1, list_2 = set(list_1), set(list_2)
+    list_1.intersection_update(list_2)
+    return list_1
 
 
 if __name__ == '__main__':

@@ -6,9 +6,8 @@
 
 
 def sym_diff(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
-    result = None
-    return result
+    set_1.symmetric_difference_update(set_2)
+    return set_1
 
 
 if __name__ == '__main__':

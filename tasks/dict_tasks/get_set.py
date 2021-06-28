@@ -10,7 +10,7 @@ from typing import Any
 
 
 def get_or_set(collection: dict, key: Any) -> Any:
-    return collection.get(key, 3)
+    return collection.setdefault(key, 3)
 
 
 if __name__ == '__main__':
